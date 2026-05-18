@@ -21,10 +21,26 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 function ciwa_elementor_template_map() {
 	return array(
-		'partner-with-us' => 'partner-with-us.json',
-		// 'home' => 'home.json',
-		// 'who-we-are' => 'who-we-are.json',
-		// ... etc as templates are built
+		'home'                       => 'home.json',
+		'who-we-are'                 => 'who-we-are.json',
+		'leadership-governance'      => 'leadership-governance.json',
+		'board-of-directors'         => 'board-of-directors.json',
+		'awards-recognition'         => 'awards-recognition.json',
+		'annual-reports'             => 'annual-reports.json',
+		'settlement-supports'        => 'settlement-supports.json',
+		'employment-skills-training' => 'employment-skills-training.json',
+		'family-parenting-supports'  => 'family-parenting-supports.json',
+		'language-training'          => 'language-training.json',
+		'language-training-2'        => 'language-training-2.json',
+		'partner-with-us'            => 'partner-with-us.json',
+		'donate'                     => 'donate.json',
+		'volunteer-with-us'          => 'volunteer-with-us.json',
+		'become-a-member'            => 'become-a-member.json',
+		'news'                       => 'news.json',
+		'events'                     => 'events.json',
+		'newsletter'                 => 'newsletter.json',
+		'useful-links'               => 'useful-links.json',
+		'contact'                    => 'contact.json',
 	);
 }
 
