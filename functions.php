@@ -94,3 +94,4 @@ add_action( 'admin_notices', 'ciwa_elementor_install_notice' );
 
 require_once get_template_directory() . '/inc/elementor-presets.php';
 require_once get_template_directory() . '/inc/seed-pages.php';
+require_once get_template_directory() . '/inc/import-elementor-templates.php';
