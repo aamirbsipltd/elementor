@@ -31,7 +31,7 @@ function ciwa_elementor_template_map() {
 		'employment-skills-training' => 'employment-skills-training.json',
 		'family-parenting-supports'  => 'family-parenting-supports.json',
 		'language-training'          => 'language-training.json',
-		'language-training-2'        => 'language-training-2.json',
+		'wellness'                   => 'wellness.json',
 		'partner-with-us'            => 'partner-with-us.json',
 		'donate'                     => 'donate.json',
 		'volunteer-with-us'          => 'volunteer-with-us.json',

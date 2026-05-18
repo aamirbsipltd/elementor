@@ -105,26 +105,66 @@ require_once get_template_directory() . '/inc/seed-pages.php';
 require_once get_template_directory() . '/inc/import-elementor-templates.php';
 
 /**
- * Fallback menu for the header when the primary nav menu isn't configured.
- * Shown until the Primary menu is seeded with real pages.
+ * Fallback nav rendered inside .ciwa-nav when no Primary nav menu has been
+ * configured in wp-admin. Mirrors the ciwa-final structure 1:1, with
+ * sub-menus that match the Figma's hover dropdowns.
  */
 function ciwa_elementor_fallback_menu() {
-	$links = array(
-		'/'                          => 'Home',
-		'/who-we-are/'               => 'About CIWA',
-		'/settlement-supports/'      => 'Programs & Services',
-		'/news/'                     => 'News & Events',
-		'/useful-links/'             => 'Resources',
-		'/contact/'                  => 'Contact',
-		'#compass'                   => 'CIWA Compass',
+	$nav = array(
+		array( 'Home',                 '/',                       array() ),
+		array( 'About CIWA',           '/who-we-are/',            array(
+			array( 'Who We Are',                  '/who-we-are/' ),
+			array( 'Leadership and Governance',   '/leadership-governance/' ),
+			array( 'Board of Directors',          '/board-of-directors/' ),
+			array( 'Awards and Recognition',      '/awards-recognition/' ),
+			array( 'Annual Reports',              '/annual-reports/' ),
+		) ),
+		array( 'Get Involve',          '/volunteer-with-us/',     array(
+			array( 'Volunteer With Us',           '/volunteer-with-us/' ),
+			array( 'Donate',                      '/donate/' ),
+			array( 'Partner With Us',             '/partner-with-us/' ),
+			array( 'Become a Member',             '/become-a-member/' ),
+		) ),
+		array( 'Programs & Services',  '/settlement-supports/',   array(
+			array( 'Settlement Supports',         '/settlement-supports/' ),
+			array( 'Employment Skills and Training','/employment-skills-training/' ),
+			array( 'Family and Parenting Supports', '/family-parenting-supports/' ),
+			array( 'Language Training',           '/language-training/' ),
+			array( 'Mental Health and Wellbeing', '/wellness/' ),
+		) ),
+		array( 'News & Events',        '/news/',                  array(
+			array( 'News',         '/news/' ),
+			array( 'Events',       '/events/' ),
+			array( 'Newsletter',   '/newsletter/' ),
+			array( 'Useful Links', '/useful-links/' ),
+		) ),
+		array( 'CIWA Compass',         '#compass',                array(
+			array( 'Coming soon', '#compass' ),
+		) ),
+		array( 'Contact',              '/contact/',               array() ),
 	);
-	echo '<ul class="ciwa-main-nav__list">';
-	foreach ( $links as $href => $label ) {
+	echo '<ul>';
+	foreach ( $nav as $item ) {
+		list( $label, $href, $children ) = $item;
+		$has_sub = ! empty( $children );
 		printf(
-			'<li><a href="%s">%s</a></li>',
-			esc_url( home_url( $href ) ),
+			'<li class="%s"><a href="%s">%s</a>',
+			$has_sub ? 'has-sub menu-item-has-children' : '',
+			esc_url( $href[0] === '#' ? $href : home_url( $href ) ),
 			esc_html( $label )
 		);
+		if ( $has_sub ) {
+			echo '<ul class="sub-menu">';
+			foreach ( $children as $c ) {
+				printf(
+					'<li><a href="%s">%s</a></li>',
+					esc_url( $c[1][0] === '#' ? $c[1] : home_url( $c[1] ) ),
+					esc_html( $c[0] )
+				);
+			}
+			echo '</ul>';
+		}
+		echo '</li>';
 	}
 	echo '</ul>';
 }
