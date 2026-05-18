@@ -88,8 +88,9 @@ function ciwa_elementor_import_template( $slug, $filename ) {
 		update_post_meta( $page->ID, '_elementor_page_settings', $tpl['page_settings'] );
 	}
 
-	// Force the page to use Elementor Canvas template (no theme header/footer).
-	update_post_meta( $page->ID, '_wp_page_template', 'elementor_canvas' );
+	// Use default page template — theme header.php + footer.php wrap the Elementor body.
+	// (Previously elementor_canvas — switched in v1.2 to give every page proper site chrome.)
+	update_post_meta( $page->ID, '_wp_page_template', '' );
 
 	// Mark this template as imported at the current theme version.
 	update_post_meta( $page->ID, '_ciwa_template_version', wp_get_theme()->get( 'Version' ) );

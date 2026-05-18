@@ -42,6 +42,14 @@ function ciwa_elementor_enqueue() {
 		wp_get_theme()->get( 'Version' )
 	);
 
+	// Header + footer chrome styles (used by header.php + footer.php).
+	wp_enqueue_style(
+		'ciwa-elementor-chrome',
+		get_theme_file_uri( '/assets/css/header-footer.css' ),
+		array( 'ciwa-elementor-style' ),
+		wp_get_theme()->get( 'Version' )
+	);
+
 	// Self-hosted fonts (woff2 in /assets/fonts/). Registered via @font-face below.
 	if ( file_exists( get_template_directory() . '/assets/fonts' ) ) {
 		wp_add_inline_style( 'ciwa-elementor-style', ciwa_elementor_font_face_css() );
@@ -95,3 +103,28 @@ add_action( 'admin_notices', 'ciwa_elementor_install_notice' );
 require_once get_template_directory() . '/inc/elementor-presets.php';
 require_once get_template_directory() . '/inc/seed-pages.php';
 require_once get_template_directory() . '/inc/import-elementor-templates.php';
+
+/**
+ * Fallback menu for the header when the primary nav menu isn't configured.
+ * Shown until the Primary menu is seeded with real pages.
+ */
+function ciwa_elementor_fallback_menu() {
+	$links = array(
+		'/'                          => 'Home',
+		'/who-we-are/'               => 'About CIWA',
+		'/settlement-supports/'      => 'Programs & Services',
+		'/news/'                     => 'News & Events',
+		'/useful-links/'             => 'Resources',
+		'/contact/'                  => 'Contact',
+		'#compass'                   => 'CIWA Compass',
+	);
+	echo '<ul class="ciwa-main-nav__list">';
+	foreach ( $links as $href => $label ) {
+		printf(
+			'<li><a href="%s">%s</a></li>',
+			esc_url( home_url( $href ) ),
+			esc_html( $label )
+		);
+	}
+	echo '</ul>';
+}

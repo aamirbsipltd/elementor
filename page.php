@@ -1,18 +1,17 @@
 <?php
 /**
- * Fallback page template — only used if a page doesn't have Elementor
- * Canvas assigned. New pages auto-get Canvas via the seeder.
+ * Page template — wraps Elementor body content with theme header + footer.
+ *
+ * Elementor filters the_content() to render its _elementor_data tree, so
+ * calling the_content() here outputs the full Elementor-built page. We omit
+ * the page title (Elementor pages set hide_title=yes) and skip the outer
+ * <main> width constraint so Elementor sections can go alignfull.
  */
 get_header();
-?>
-<main style="max-width:1200px;margin:64px auto;padding:0 24px;">
-	<?php
-	while ( have_posts() ) {
-		the_post();
-		the_title( '<h1 style="font-family:var(--ciwa-display);font-size:2.5rem;margin-bottom:24px;">', '</h1>' );
-		the_content();
-	}
-	?>
-</main>
-<?php
+
+while ( have_posts() ) {
+	the_post();
+	the_content();
+}
+
 get_footer();

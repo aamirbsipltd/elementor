@@ -65,8 +65,9 @@ function ciwa_elementor_seed_pages() {
 		) );
 
 		if ( $post_id && ! is_wp_error( $post_id ) ) {
-			// Assign Elementor Canvas template — bypasses theme header/footer.
-			update_post_meta( $post_id, '_wp_page_template', 'elementor_canvas' );
+			// Default page template — theme header.php + footer.php wrap the Elementor body.
+			// (Previously elementor_canvas — switched in v1.2 so the site has chrome.)
+			update_post_meta( $post_id, '_wp_page_template', '' );
 			// Mark page as Elementor-built (Elementor reads this on first edit).
 			update_post_meta( $post_id, '_elementor_edit_mode', 'builder' );
 			update_post_meta( $post_id, '_elementor_template_type', 'wp-page' );
