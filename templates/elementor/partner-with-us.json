@@ -7,41 +7,74 @@
   },
   "content": [
     {
-      "id": "pwu_hero",
+      "id": "s0011",
       "elType": "section",
+      "isInner": false,
       "settings": {
         "structure": "20",
         "background_background": "classic",
         "background_color": "#fce7f0",
-        "padding": {"unit":"px","top":"80","right":"32","bottom":"96","left":"32","isLinked":false},
-        "content_width": {"unit":"px","size":1320},
+        "padding": {
+          "unit": "px",
+          "isLinked": false,
+          "top": "80",
+          "right": "32",
+          "bottom": "96",
+          "left": "32"
+        },
+        "content_width": {
+          "unit": "px",
+          "size": 1320
+        },
         "gap": "extended"
       },
       "elements": [
         {
-          "id": "pwu_hero_col1",
+          "id": "c0008",
           "elType": "column",
-          "settings": {"_column_size": 50, "content_position": "center"},
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": null,
+            "content_position": "center"
+          },
           "elements": [
             {
-              "id": "pwu_hero_h1",
+              "id": "w0001",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
                 "title": "PARTNER WITH US",
                 "header_size": "h1",
+                "align": "left",
                 "title_color": "#6a1753",
                 "typography_typography": "custom",
                 "typography_font_family": "Cormorant Garamond",
-                "typography_font_size": {"unit":"px","size":64},
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 56
+                },
                 "typography_font_weight": "400",
-                "typography_letter_spacing": {"unit":"px","size":-1.3},
-                "typography_line_height": {"unit":"em","size":1.0},
-                "typography_text_transform": "uppercase"
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": -1.3
+                },
+                "typography_text_transform": "uppercase",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.1
+                },
+                "_margin": {
+                  "unit": "px",
+                  "isLinked": false,
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0"
+                }
               }
             },
             {
-              "id": "pwu_hero_body",
+              "id": "w0002",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
@@ -49,50 +82,197 @@
                 "text_color": "#1a1a1a",
                 "typography_typography": "custom",
                 "typography_font_family": "Inter",
-                "typography_font_size": {"unit":"px","size":18},
-                "typography_font_weight": "400",
-                "typography_line_height": {"unit":"em","size":1.6},
-                "_margin": {"unit":"px","top":"20","right":"0","bottom":"28","left":"0","isLinked":false}
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6
+                },
+                "_margin": {
+                  "unit": "px",
+                  "isLinked": false,
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "28",
+                  "left": "0"
+                }
               }
             },
             {
-              "id": "pwu_hero_btn",
-              "elType": "widget",
-              "widgetType": "button",
+              "id": "s0007",
+              "elType": "section",
+              "isInner": true,
               "settings": {
-                "text": "JOIN NOW ›",
-                "link": {"url":"#partner-contact","is_external":"","nofollow":""},
-                "align": "left",
-                "size": "md",
-                "background_color": "#f68b3c",
-                "button_text_color": "#ffffff",
-                "hover_background_color": "#e07d2e",
-                "typography_typography": "custom",
-                "typography_font_family": "Cormorant Garamond",
-                "typography_font_size": {"unit":"px","size":15},
-                "typography_font_weight": "400",
-                "typography_letter_spacing": {"unit":"px","size":1.5},
-                "typography_text_transform": "uppercase",
-                "border_radius": {"unit":"px","top":"8","right":"8","bottom":"8","left":"8","isLinked":true},
-                "text_padding": {"unit":"px","top":"14","right":"28","bottom":"14","left":"28","isLinked":false}
-              }
+                "structure": "20",
+                "padding": {
+                  "unit": "px",
+                  "isLinked": false,
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0"
+                },
+                "content_width": {
+                  "unit": "px",
+                  "size": 600
+                },
+                "gap": "default"
+              },
+              "elements": [
+                {
+                  "id": "c0004",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "content_position": "top"
+                  },
+                  "elements": [
+                    {
+                      "id": "w0003",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "JOIN NOW \u203a",
+                        "link": {
+                          "url": "#partner-contact",
+                          "is_external": "",
+                          "nofollow": ""
+                        },
+                        "align": "left",
+                        "background_color": "#f68b3c",
+                        "button_text_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "typography_font_weight": "400",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 1.5
+                        },
+                        "typography_text_transform": "uppercase",
+                        "border_radius": {
+                          "unit": "px",
+                          "isLinked": false,
+                          "top": "8",
+                          "right": "8",
+                          "bottom": "8",
+                          "left": "8"
+                        },
+                        "text_padding": {
+                          "unit": "px",
+                          "isLinked": false,
+                          "top": "13",
+                          "right": "28",
+                          "bottom": "13",
+                          "left": "28"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "c0006",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "content_position": "top"
+                  },
+                  "elements": [
+                    {
+                      "id": "w0005",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "LEARN MORE \u203a",
+                        "link": {
+                          "url": "#why-partner",
+                          "is_external": "",
+                          "nofollow": ""
+                        },
+                        "align": "left",
+                        "background_color": "rgba(0,0,0,0)",
+                        "button_text_color": "#6a1753",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "typography_font_weight": "400",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 1.5
+                        },
+                        "typography_text_transform": "uppercase",
+                        "border_radius": {
+                          "unit": "px",
+                          "isLinked": false,
+                          "top": "8",
+                          "right": "8",
+                          "bottom": "8",
+                          "left": "8"
+                        },
+                        "text_padding": {
+                          "unit": "px",
+                          "isLinked": false,
+                          "top": "13",
+                          "right": "28",
+                          "bottom": "13",
+                          "left": "28"
+                        },
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "isLinked": false,
+                          "top": "2",
+                          "right": "2",
+                          "bottom": "2",
+                          "left": "2"
+                        },
+                        "border_color": "#6a1753"
+                      }
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
         {
-          "id": "pwu_hero_col2",
+          "id": "c0010",
           "elType": "column",
-          "settings": {"_column_size": 50, "content_position": "center"},
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": null,
+            "content_position": "center"
+          },
           "elements": [
             {
-              "id": "pwu_hero_img",
+              "id": "w0009",
               "elType": "widget",
               "widgetType": "image",
               "settings": {
-                "image": {"url":"{ASSETS}/contact/group.png","id":""},
+                "image": {
+                  "url": "{ASSETS}/contact/group.png",
+                  "id": ""
+                },
                 "image_size": "full",
                 "align": "center",
-                "border_radius": {"unit":"px","top":"18","right":"18","bottom":"18","left":"18","isLinked":true}
+                "image_border_radius": {
+                  "unit": "px",
+                  "isLinked": false,
+                  "top": "18",
+                  "right": "18",
+                  "bottom": "18",
+                  "left": "18"
+                }
               }
             }
           ]
@@ -100,23 +280,40 @@
       ]
     },
     {
-      "id": "pwu_why",
+      "id": "s0028",
       "elType": "section",
+      "isInner": false,
       "settings": {
-        "structure": "30",
+        "structure": "10",
         "background_background": "classic",
         "background_color": "#fdf6ef",
-        "padding": {"unit":"px","top":"80","right":"32","bottom":"80","left":"32","isLinked":false},
-        "content_width": {"unit":"px","size":1320}
+        "padding": {
+          "unit": "px",
+          "isLinked": false,
+          "top": "80",
+          "right": "32",
+          "bottom": "80",
+          "left": "32"
+        },
+        "content_width": {
+          "unit": "px",
+          "size": 1320
+        },
+        "gap": "default",
+        "_element_id": "why-partner"
       },
       "elements": [
         {
-          "id": "pwu_why_col_intro",
+          "id": "c0027",
           "elType": "column",
-          "settings": {"_column_size": 100},
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "content_position": "top"
+          },
           "elements": [
             {
-              "id": "pwu_why_h",
+              "id": "w0024",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -126,80 +323,1393 @@
                 "title_color": "#6a1753",
                 "typography_typography": "custom",
                 "typography_font_family": "Cormorant Garamond",
-                "typography_font_size": {"unit":"px","size":48},
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 44
+                },
                 "typography_font_weight": "400",
-                "typography_letter_spacing": {"unit":"px","size":-1},
-                "typography_text_transform": "uppercase"
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": -1
+                },
+                "typography_text_transform": "uppercase",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.1
+                },
+                "_margin": {
+                  "unit": "px",
+                  "isLinked": false,
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0"
+                }
               }
             },
             {
-              "id": "pwu_why_sub",
+              "id": "w0025",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p style='text-align:center;max-width:880px;margin:16px auto 48px;'>CIWA offers diverse partnership opportunities tailored to your organization's goals and values. Discover how you can make a meaningful impact.</p>",
+                "editor": "<p style='text-align:center;max-width:880px;margin:0 auto 48px;'>CIWA offers diverse partnership opportunities tailored to your organization's goals and values. Discover how you can make a meaningful impact.</p>",
                 "text_color": "#4a4a4a",
                 "typography_typography": "custom",
                 "typography_font_family": "Inter",
-                "typography_font_size": {"unit":"px","size":17},
-                "typography_line_height": {"unit":"em","size":1.55}
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6
+                },
+                "align": "center",
+                "_margin": {
+                  "unit": "px",
+                  "isLinked": false,
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0"
+                }
               }
             },
             {
-              "id": "pwu_why_cards_html",
-              "elType": "widget",
-              "widgetType": "html",
+              "id": "s0026",
+              "elType": "section",
+              "isInner": true,
               "settings": {
-                "html": "<style>.pwu-why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;max-width:1320px;margin:0 auto}.pwu-why-card{background:#fff;border:1px solid #ece2eb;border-radius:14px;padding:36px 28px;display:flex;flex-direction:column;gap:14px;box-shadow:0 2px 6px rgba(0,0,0,0.04)}.pwu-why-card img{width:48px;height:48px;display:block}.pwu-why-card h3{font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:400;margin:0;text-transform:uppercase;letter-spacing:0.4px}.pwu-why-card.purple h3{color:#6a1753}.pwu-why-card.orange h3{color:#f68b3c}.pwu-why-card.pink h3{color:#e22371}.pwu-why-card p{font-family:'Inter',sans-serif;font-size:15px;line-height:1.6;color:#4a4a4a;margin:0}@media(max-width:900px){.pwu-why-grid{grid-template-columns:1fr}}</style><div class='pwu-why-grid'><div class='pwu-why-card purple'><img src='{ASSETS}/programs/icon-1.svg' alt=''><h3>Support Thousands</h3><p>You actively support thousands of immigrant women in building successful lives and contribute to community wellbeing.</p></div><div class='pwu-why-card orange'><img src='{ASSETS}/programs/icon-2.svg' alt=''><h3>Diversity &amp; Inclusion</h3><p>You demonstrate your organization's commitment to diversity and inclusion while addressing critical workforce gaps.</p></div><div class='pwu-why-card pink'><img src='{ASSETS}/programs/icon-3.svg' alt=''><h3>Skilled Professionals</h3><p>You gain access to a wide pool of skilled professionals ready to contribute meaningfully to your business.</p></div></div>"
-              }
+                "structure": "33",
+                "padding": {
+                  "unit": "px",
+                  "isLinked": false,
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0"
+                },
+                "content_width": {
+                  "unit": "px",
+                  "size": 1320
+                },
+                "gap": "extended"
+              },
+              "elements": [
+                {
+                  "id": "c0015",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33,
+                    "_inline_size": null,
+                    "content_position": "top",
+                    "background_background": "classic",
+                    "background_color": "#ffffff",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "isLinked": false,
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1"
+                    },
+                    "border_color": "#e6dce4",
+                    "border_radius": {
+                      "unit": "px",
+                      "isLinked": false,
+                      "top": "14",
+                      "right": "14",
+                      "bottom": "14",
+                      "left": "14"
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "isLinked": false,
+                      "top": "36",
+                      "right": "28",
+                      "bottom": "36",
+                      "left": "28"
+                    },
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 2,
+                      "blur": 6,
+                      "spread": 0,
+                      "color": "rgba(0,0,0,0.04)"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "w0012",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "{ASSETS}/programs/icon-1.svg",
+                          "id": ""
+                        },
+                        "image_size": "full",
+                        "align": "left",
+                        "width": {
+                          "unit": "px",
+                          "size": 48
+                        }
+                      }
+                    },
+                    {
+                      "id": "w0013",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Support Thousands",
+                        "header_size": "h3",
+                        "align": "left",
+                        "title_color": "#6a1753",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 22
+                        },
+                        "typography_font_weight": "400",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 0.4
+                        },
+                        "typography_text_transform": "uppercase",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "isLinked": false,
+                          "top": "8",
+                          "right": "0",
+                          "bottom": "4",
+                          "left": "0"
+                        }
+                      }
+                    },
+                    {
+                      "id": "w0014",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>You actively support thousands of immigrant women in building successful lives and contribute to community wellbeing.</p>",
+                        "text_color": "#4a4a4a",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "c0019",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33,
+                    "_inline_size": null,
+                    "content_position": "top",
+                    "background_background": "classic",
+                    "background_color": "#ffffff",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "isLinked": false,
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1"
+                    },
+                    "border_color": "#e6dce4",
+                    "border_radius": {
+                      "unit": "px",
+                      "isLinked": false,
+                      "top": "14",
+                      "right": "14",
+                      "bottom": "14",
+                      "left": "14"
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "isLinked": false,
+                      "top": "36",
+                      "right": "28",
+                      "bottom": "36",
+                      "left": "28"
+                    },
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 2,
+                      "blur": 6,
+                      "spread": 0,
+                      "color": "rgba(0,0,0,0.04)"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "w0016",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "{ASSETS}/programs/icon-2.svg",
+                          "id": ""
+                        },
+                        "image_size": "full",
+                        "align": "left",
+                        "width": {
+                          "unit": "px",
+                          "size": 48
+                        }
+                      }
+                    },
+                    {
+                      "id": "w0017",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Diversity & Inclusion",
+                        "header_size": "h3",
+                        "align": "left",
+                        "title_color": "#f68b3c",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 22
+                        },
+                        "typography_font_weight": "400",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 0.4
+                        },
+                        "typography_text_transform": "uppercase",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "isLinked": false,
+                          "top": "8",
+                          "right": "0",
+                          "bottom": "4",
+                          "left": "0"
+                        }
+                      }
+                    },
+                    {
+                      "id": "w0018",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>You demonstrate your organization's commitment to diversity and inclusion while addressing critical workforce gaps.</p>",
+                        "text_color": "#4a4a4a",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "c0023",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33,
+                    "_inline_size": null,
+                    "content_position": "top",
+                    "background_background": "classic",
+                    "background_color": "#ffffff",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "isLinked": false,
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1"
+                    },
+                    "border_color": "#e6dce4",
+                    "border_radius": {
+                      "unit": "px",
+                      "isLinked": false,
+                      "top": "14",
+                      "right": "14",
+                      "bottom": "14",
+                      "left": "14"
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "isLinked": false,
+                      "top": "36",
+                      "right": "28",
+                      "bottom": "36",
+                      "left": "28"
+                    },
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 2,
+                      "blur": 6,
+                      "spread": 0,
+                      "color": "rgba(0,0,0,0.04)"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "w0020",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "{ASSETS}/programs/icon-3.svg",
+                          "id": ""
+                        },
+                        "image_size": "full",
+                        "align": "left",
+                        "width": {
+                          "unit": "px",
+                          "size": 48
+                        }
+                      }
+                    },
+                    {
+                      "id": "w0021",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Skilled Professionals",
+                        "header_size": "h3",
+                        "align": "left",
+                        "title_color": "#e22371",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 22
+                        },
+                        "typography_font_weight": "400",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 0.4
+                        },
+                        "typography_text_transform": "uppercase",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "isLinked": false,
+                          "top": "8",
+                          "right": "0",
+                          "bottom": "4",
+                          "left": "0"
+                        }
+                      }
+                    },
+                    {
+                      "id": "w0022",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>You gain access to a wide pool of skilled professionals ready to contribute meaningfully to your business.</p>",
+                        "text_color": "#4a4a4a",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
       ]
     },
     {
-      "id": "pwu_tabs",
+      "id": "s0061",
       "elType": "section",
+      "isInner": false,
       "settings": {
+        "structure": "10",
         "background_background": "classic",
         "background_color": "#ffffff",
-        "padding": {"unit":"px","top":"64","right":"32","bottom":"96","left":"32","isLinked":false},
-        "content_width": {"unit":"px","size":1320}
+        "padding": {
+          "unit": "px",
+          "isLinked": false,
+          "top": "64",
+          "right": "32",
+          "bottom": "96",
+          "left": "32"
+        },
+        "content_width": {
+          "unit": "px",
+          "size": 1320
+        },
+        "gap": "default"
       },
       "elements": [
         {
-          "id": "pwu_tabs_col",
+          "id": "c0060",
           "elType": "column",
-          "settings": {"_column_size": 100},
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "content_position": "top"
+          },
           "elements": [
             {
-              "id": "pwu_tabs_html",
+              "id": "w0055",
               "elType": "widget",
               "widgetType": "html",
               "settings": {
-                "html": "<style>.pwu-tabs-nav{max-width:880px;margin:0 auto 32px;border-bottom:1px solid #d6c8d4;display:flex;gap:0}.pwu-tab{padding:18px 24px;border-bottom:3px solid transparent;margin-bottom:-1px;font-family:'Cormorant Garamond',serif;font-size:16px;letter-spacing:1px;color:#8a7a87;text-transform:uppercase;text-align:center;flex:1}.pwu-tab.active{color:#6a1753;border-bottom-color:#6a1753}.pwu-intro{max-width:1100px;margin:0 auto 48px;text-align:center;font-family:'Inter',sans-serif;font-size:17px;line-height:1.6;color:#4a4a4a}.pwu-cards-2x2{max-width:1320px;margin:0 auto 56px;display:grid;grid-template-columns:1fr 1fr;gap:28px}.pwu-card{background:#fff;border:1px solid #e6dce4;border-left:6px solid #6a1753;border-radius:14px;padding:28px;display:flex;flex-direction:column;gap:12px;box-shadow:0 2px 6px rgba(0,0,0,.04)}.pwu-card.purple{border-left-color:#6a1753}.pwu-card.purple h3{color:#6a1753}.pwu-card.pink{border-left-color:#e22371}.pwu-card.pink h3{color:#e22371}.pwu-card.orange{border-left-color:#f68b3c}.pwu-card.orange h3{color:#f68b3c}.pwu-card h3{font-family:'Cormorant Garamond',serif;font-size:21px;font-weight:400;margin:0;text-transform:uppercase;letter-spacing:0.4px}.pwu-card p{font-family:'Inter',sans-serif;font-size:15px;line-height:1.6;color:#4a4a4a;margin:0}.pwu-work{background:#fff;border:1px solid #e6dce4;border-left:6px solid #5bbdad;border-radius:14px;padding:36px;margin:0 auto 56px;max-width:1320px;box-shadow:0 2px 6px rgba(0,0,0,.04)}.pwu-work h3{font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:400;margin:0 0 14px;color:#5bbdad;text-transform:uppercase}.pwu-work p{font-family:'Inter',sans-serif;font-size:16px;line-height:1.6;color:#4a4a4a;margin:0 0 20px}.pwu-tags{display:flex;flex-wrap:wrap;gap:10px}.pwu-tag{background:#eaf6f3;color:#2d6f64;padding:6px 14px;border-radius:999px;font-size:13px;letter-spacing:0.5px;text-transform:uppercase;font-family:'Inter',sans-serif}.pwu-twoup{max-width:1320px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:28px}@media(max-width:900px){.pwu-cards-2x2,.pwu-twoup{grid-template-columns:1fr}}</style><div class='pwu-tabs-nav'><div class='pwu-tab active'>FOR BUSINESS</div><div class='pwu-tab'>FOR COMMUNITY PARTNERS</div></div><p class='pwu-intro'>CIWA works with over 150 business partners each and every year, making a significant impact by volunteering time, knowledge, space, or offering employment to newcomers in Calgary.</p><div class='pwu-cards-2x2'><div class='pwu-card purple'><h3>Networking with Newcomers</h3><p>Participate in networking events to meet immigrant women entering the Canadian workforce.</p><p>Help newcomers navigate resumes, interviews, and job applications.</p></div><div class='pwu-card pink'><h3>Host a Work Placement or Practicum</h3><p>Provide work placements for immigrant women enrolled in CIWA programs.</p><p>Offer practical Canadian work experience, helping participants overcome employment barriers.</p></div><div class='pwu-card purple'><h3>Hire Graduates</h3><p>Employ qualified CIWA alumnae trained in childcare, customer service, office administration, and more.</p><p>Support economic security for immigrant women and their families.</p></div><div class='pwu-card pink'><h3>Refer Job Seekers</h3><p>Direct immigrant women not yet job-ready to CIWA's bridge-to-work programs.</p><p>Free training in retail, food service, security, hospitality, and interpretation.</p></div></div><div class='pwu-work'><h3>Host a Work Experience</h3><p>CIWA works with employers to host work placements for employment-ready immigrant women. Employers benefit from a motivated workforce, while participants gain practical Canadian work experience that opens doors to long-term careers.</p><div class='pwu-tags'><span class='pwu-tag'>Accounting</span><span class='pwu-tag'>Office administration</span><span class='pwu-tag'>Management</span><span class='pwu-tag'>Sales and Marketing</span><span class='pwu-tag'>IT</span><span class='pwu-tag'>Childcare</span><span class='pwu-tag'>Retail</span></div></div><div class='pwu-twoup'><div class='pwu-card orange'><h3>Be a Corporate or Community Sponsor</h3><p>Amplify CIWA's impact by sponsoring initiatives that break barriers for immigrant women.</p><p>Host space for events or provide in-kind services to support programs.</p></div><div class='pwu-card purple'><h3>Access Diverse Talent</h3><p>Join CIWA's free platform for employers, \"Diverse Workforce,\" to connect with qualified immigrant women across sectors.</p></div></div>"
+                "html": "<style>.pwu-tabs-nav{max-width:880px;margin:0 auto 32px;border-bottom:1px solid #d6c8d4;display:flex;gap:0}.pwu-tab{padding:18px 24px;flex:1;border-bottom:3px solid transparent;margin-bottom:-1px;font-family:'Cormorant Garamond',serif;font-size:16px;letter-spacing:1px;color:#8a7a87;text-transform:uppercase;text-align:center;}.pwu-tab.active{color:#6a1753;border-bottom-color:#6a1753}</style><div class='pwu-tabs-nav'><div class='pwu-tab active'>FOR BUSINESS</div><div class='pwu-tab'>FOR COMMUNITY PARTNERS</div></div>"
               }
+            },
+            {
+              "id": "w0056",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align:center;max-width:1100px;margin:0 auto 48px;'>CIWA works with over 150 business partners each and every year, making a significant impact by volunteering time, knowledge, space, or offering employment to newcomers in Calgary.</p>",
+                "text_color": "#4a4a4a",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6
+                },
+                "align": "center",
+                "_margin": {
+                  "unit": "px",
+                  "isLinked": false,
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0"
+                }
+              }
+            },
+            {
+              "id": "s0035",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "structure": "20",
+                "padding": {
+                  "unit": "px",
+                  "isLinked": false,
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0"
+                },
+                "content_width": {
+                  "unit": "px",
+                  "size": 1320
+                },
+                "gap": "extended"
+              },
+              "elements": [
+                {
+                  "id": "c0031",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "content_position": "top",
+                    "background_background": "classic",
+                    "background_color": "#ffffff",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "isLinked": false,
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "6"
+                    },
+                    "border_color": "#6a1753",
+                    "border_radius": {
+                      "unit": "px",
+                      "isLinked": false,
+                      "top": "14",
+                      "right": "14",
+                      "bottom": "14",
+                      "left": "14"
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "isLinked": false,
+                      "top": "28",
+                      "right": "28",
+                      "bottom": "28",
+                      "left": "28"
+                    },
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 2,
+                      "blur": 6,
+                      "spread": 0,
+                      "color": "rgba(0,0,0,0.04)"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "w0029",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Networking with Newcomers",
+                        "header_size": "h3",
+                        "align": "left",
+                        "title_color": "#6a1753",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 21
+                        },
+                        "typography_font_weight": "400",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 0.4
+                        },
+                        "typography_text_transform": "uppercase",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "isLinked": false,
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "12",
+                          "left": "0"
+                        }
+                      }
+                    },
+                    {
+                      "id": "w0030",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Participate in networking events to meet immigrant women entering the Canadian workforce. Help newcomers navigate resumes, interviews, and job applications.</p>",
+                        "text_color": "#4a4a4a",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "c0034",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "content_position": "top",
+                    "background_background": "classic",
+                    "background_color": "#ffffff",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "isLinked": false,
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "6"
+                    },
+                    "border_color": "#e22371",
+                    "border_radius": {
+                      "unit": "px",
+                      "isLinked": false,
+                      "top": "14",
+                      "right": "14",
+                      "bottom": "14",
+                      "left": "14"
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "isLinked": false,
+                      "top": "28",
+                      "right": "28",
+                      "bottom": "28",
+                      "left": "28"
+                    },
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 2,
+                      "blur": 6,
+                      "spread": 0,
+                      "color": "rgba(0,0,0,0.04)"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "w0032",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Host a Work Placement or Practicum",
+                        "header_size": "h3",
+                        "align": "left",
+                        "title_color": "#e22371",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 21
+                        },
+                        "typography_font_weight": "400",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 0.4
+                        },
+                        "typography_text_transform": "uppercase",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "isLinked": false,
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "12",
+                          "left": "0"
+                        }
+                      }
+                    },
+                    {
+                      "id": "w0033",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Provide work placements for immigrant women enrolled in CIWA programs. Offer practical Canadian work experience, helping participants overcome employment barriers.</p>",
+                        "text_color": "#4a4a4a",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "w0057",
+              "elType": "widget",
+              "widgetType": "spacer",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 28
+                }
+              }
+            },
+            {
+              "id": "s0042",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "structure": "20",
+                "padding": {
+                  "unit": "px",
+                  "isLinked": false,
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0"
+                },
+                "content_width": {
+                  "unit": "px",
+                  "size": 1320
+                },
+                "gap": "extended"
+              },
+              "elements": [
+                {
+                  "id": "c0038",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "content_position": "top",
+                    "background_background": "classic",
+                    "background_color": "#ffffff",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "isLinked": false,
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "6"
+                    },
+                    "border_color": "#6a1753",
+                    "border_radius": {
+                      "unit": "px",
+                      "isLinked": false,
+                      "top": "14",
+                      "right": "14",
+                      "bottom": "14",
+                      "left": "14"
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "isLinked": false,
+                      "top": "28",
+                      "right": "28",
+                      "bottom": "28",
+                      "left": "28"
+                    },
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 2,
+                      "blur": 6,
+                      "spread": 0,
+                      "color": "rgba(0,0,0,0.04)"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "w0036",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Hire Graduates",
+                        "header_size": "h3",
+                        "align": "left",
+                        "title_color": "#6a1753",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 21
+                        },
+                        "typography_font_weight": "400",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 0.4
+                        },
+                        "typography_text_transform": "uppercase",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "isLinked": false,
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "12",
+                          "left": "0"
+                        }
+                      }
+                    },
+                    {
+                      "id": "w0037",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Employ qualified CIWA alumnae trained in childcare, customer service, office administration, and more. Support economic security for immigrant women and their families.</p>",
+                        "text_color": "#4a4a4a",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "c0041",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "content_position": "top",
+                    "background_background": "classic",
+                    "background_color": "#ffffff",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "isLinked": false,
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "6"
+                    },
+                    "border_color": "#e22371",
+                    "border_radius": {
+                      "unit": "px",
+                      "isLinked": false,
+                      "top": "14",
+                      "right": "14",
+                      "bottom": "14",
+                      "left": "14"
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "isLinked": false,
+                      "top": "28",
+                      "right": "28",
+                      "bottom": "28",
+                      "left": "28"
+                    },
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 2,
+                      "blur": 6,
+                      "spread": 0,
+                      "color": "rgba(0,0,0,0.04)"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "w0039",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Refer Job Seekers",
+                        "header_size": "h3",
+                        "align": "left",
+                        "title_color": "#e22371",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 21
+                        },
+                        "typography_font_weight": "400",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 0.4
+                        },
+                        "typography_text_transform": "uppercase",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "isLinked": false,
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "12",
+                          "left": "0"
+                        }
+                      }
+                    },
+                    {
+                      "id": "w0040",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Direct immigrant women not yet job-ready to CIWA's bridge-to-work programs. Free training in retail, food service, security, hospitality, and interpretation.</p>",
+                        "text_color": "#4a4a4a",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "w0058",
+              "elType": "widget",
+              "widgetType": "spacer",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 56
+                }
+              }
+            },
+            {
+              "id": "s0047",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "structure": "10",
+                "padding": {
+                  "unit": "px",
+                  "isLinked": false,
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0"
+                },
+                "content_width": {
+                  "unit": "px",
+                  "size": 1320
+                },
+                "gap": "default"
+              },
+              "elements": [
+                {
+                  "id": "c0046",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "_inline_size": null,
+                    "content_position": "top",
+                    "background_background": "classic",
+                    "background_color": "#ffffff",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "isLinked": false,
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "6"
+                    },
+                    "border_color": "#5bbdad",
+                    "border_radius": {
+                      "unit": "px",
+                      "isLinked": false,
+                      "top": "14",
+                      "right": "14",
+                      "bottom": "14",
+                      "left": "14"
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "isLinked": false,
+                      "top": "36",
+                      "right": "36",
+                      "bottom": "36",
+                      "left": "36"
+                    },
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 2,
+                      "blur": 6,
+                      "spread": 0,
+                      "color": "rgba(0,0,0,0.04)"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "w0043",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Host a Work Experience",
+                        "header_size": "h3",
+                        "align": "left",
+                        "title_color": "#5bbdad",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 22
+                        },
+                        "typography_font_weight": "400",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 0.4
+                        },
+                        "typography_text_transform": "uppercase",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "isLinked": false,
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "14",
+                          "left": "0"
+                        }
+                      }
+                    },
+                    {
+                      "id": "w0044",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>CIWA works with employers to host work placements for employment-ready immigrant women. Employers benefit from a motivated workforce, while participants gain practical Canadian work experience that opens doors to long-term careers.</p>",
+                        "text_color": "#4a4a4a",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "isLinked": false,
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "20",
+                          "left": "0"
+                        }
+                      }
+                    },
+                    {
+                      "id": "w0045",
+                      "elType": "widget",
+                      "widgetType": "html",
+                      "settings": {
+                        "html": "<style>.pwu-tags{display:flex;flex-wrap:wrap;gap:10px}.pwu-tag{background:#eaf6f3;color:#2d6f64;padding:6px 14px;border-radius:999px;font-size:13px;letter-spacing:0.5px;text-transform:uppercase;font-family:'Inter',sans-serif}</style><div class='pwu-tags'><span class='pwu-tag'>Accounting</span><span class='pwu-tag'>Office administration</span><span class='pwu-tag'>Management</span><span class='pwu-tag'>Sales and Marketing</span><span class='pwu-tag'>IT</span><span class='pwu-tag'>Childcare</span><span class='pwu-tag'>Retail</span></div>"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "w0059",
+              "elType": "widget",
+              "widgetType": "spacer",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 56
+                }
+              }
+            },
+            {
+              "id": "s0054",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "structure": "20",
+                "padding": {
+                  "unit": "px",
+                  "isLinked": false,
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0"
+                },
+                "content_width": {
+                  "unit": "px",
+                  "size": 1320
+                },
+                "gap": "extended"
+              },
+              "elements": [
+                {
+                  "id": "c0050",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "content_position": "top",
+                    "background_background": "classic",
+                    "background_color": "#ffffff",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "isLinked": false,
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "6"
+                    },
+                    "border_color": "#f68b3c",
+                    "border_radius": {
+                      "unit": "px",
+                      "isLinked": false,
+                      "top": "14",
+                      "right": "14",
+                      "bottom": "14",
+                      "left": "14"
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "isLinked": false,
+                      "top": "28",
+                      "right": "28",
+                      "bottom": "28",
+                      "left": "28"
+                    },
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 2,
+                      "blur": 6,
+                      "spread": 0,
+                      "color": "rgba(0,0,0,0.04)"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "w0048",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Be a Corporate or Community Sponsor",
+                        "header_size": "h3",
+                        "align": "left",
+                        "title_color": "#f68b3c",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 22
+                        },
+                        "typography_font_weight": "400",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 0.4
+                        },
+                        "typography_text_transform": "uppercase",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "isLinked": false,
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "12",
+                          "left": "0"
+                        }
+                      }
+                    },
+                    {
+                      "id": "w0049",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Amplify CIWA's impact by sponsoring initiatives that break barriers for immigrant women. Host space for events or provide in-kind services to support programs.</p>",
+                        "text_color": "#4a4a4a",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "c0053",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "content_position": "top",
+                    "background_background": "classic",
+                    "background_color": "#ffffff",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "isLinked": false,
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "6"
+                    },
+                    "border_color": "#6a1753",
+                    "border_radius": {
+                      "unit": "px",
+                      "isLinked": false,
+                      "top": "14",
+                      "right": "14",
+                      "bottom": "14",
+                      "left": "14"
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "isLinked": false,
+                      "top": "28",
+                      "right": "28",
+                      "bottom": "28",
+                      "left": "28"
+                    },
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 2,
+                      "blur": 6,
+                      "spread": 0,
+                      "color": "rgba(0,0,0,0.04)"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "w0051",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Access Diverse Talent",
+                        "header_size": "h3",
+                        "align": "left",
+                        "title_color": "#6a1753",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 22
+                        },
+                        "typography_font_weight": "400",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 0.4
+                        },
+                        "typography_text_transform": "uppercase",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "isLinked": false,
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "12",
+                          "left": "0"
+                        }
+                      }
+                    },
+                    {
+                      "id": "w0052",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Join CIWA's free platform for employers, \"Diverse Workforce,\" to connect with qualified immigrant women across sectors.</p>",
+                        "text_color": "#4a4a4a",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
       ]
     },
     {
-      "id": "pwu_spotlight",
+      "id": "s0068",
       "elType": "section",
+      "isInner": false,
       "settings": {
+        "structure": "10",
         "background_background": "classic",
         "background_color": "#6a1753",
-        "padding": {"unit":"px","top":"80","right":"32","bottom":"80","left":"32","isLinked":false}
+        "padding": {
+          "unit": "px",
+          "isLinked": false,
+          "top": "80",
+          "right": "32",
+          "bottom": "80",
+          "left": "32"
+        },
+        "content_width": {
+          "unit": "px",
+          "size": 1320
+        },
+        "gap": "default"
       },
       "elements": [
         {
-          "id": "pwu_spot_col",
+          "id": "c0067",
           "elType": "column",
-          "settings": {"_column_size": 100, "align": "center"},
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "content_position": "top"
+          },
           "elements": [
             {
-              "id": "pwu_spot_h",
+              "id": "w0062",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -209,64 +1719,176 @@
                 "title_color": "#ffffff",
                 "typography_typography": "custom",
                 "typography_font_family": "Cormorant Garamond",
-                "typography_font_size": {"unit":"px","size":48},
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48
+                },
                 "typography_font_weight": "400",
-                "typography_letter_spacing": {"unit":"px","size":-1},
-                "typography_text_transform": "uppercase"
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": -1
+                },
+                "typography_text_transform": "uppercase",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.1
+                },
+                "_margin": {
+                  "unit": "px",
+                  "isLinked": false,
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "14",
+                  "left": "0"
+                }
               }
             },
             {
-              "id": "pwu_spot_p",
+              "id": "w0063",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p style='text-align:center;color:rgba(255,255,255,0.9);'>See how our business partners are making a difference.</p>",
+                "editor": "<p style='text-align:center;color:rgba(255,255,255,.9);'>See how our business partners are making a difference.</p>",
+                "text_color": "rgba(255,255,255,0.9)",
                 "typography_typography": "custom",
                 "typography_font_family": "Inter",
-                "typography_font_size": {"unit":"px","size":16},
-                "_margin": {"unit":"px","top":"14","right":"0","bottom":"28","left":"0","isLinked":false}
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6
+                },
+                "align": "center",
+                "_margin": {
+                  "unit": "px",
+                  "isLinked": false,
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "28",
+                  "left": "0"
+                }
               }
             },
             {
-              "id": "pwu_spot_btn",
-              "elType": "widget",
-              "widgetType": "button",
+              "id": "s0066",
+              "elType": "section",
+              "isInner": true,
               "settings": {
-                "text": "VIEW BUSINESS PARTNERS ›",
-                "link": {"url":"#partners"},
-                "align": "center",
-                "background_color": "#f68b3c",
-                "button_text_color": "#ffffff",
-                "typography_typography": "custom",
-                "typography_font_family": "Cormorant Garamond",
-                "typography_font_size": {"unit":"px","size":15},
-                "typography_letter_spacing": {"unit":"px","size":1.5},
-                "typography_text_transform": "uppercase",
-                "border_radius": {"unit":"px","top":"8","right":"8","bottom":"8","left":"8","isLinked":true},
-                "text_padding": {"unit":"px","top":"14","right":"28","bottom":"14","left":"28","isLinked":false}
-              }
+                "structure": "10",
+                "padding": {
+                  "unit": "px",
+                  "isLinked": false,
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0"
+                },
+                "content_width": {
+                  "unit": "px",
+                  "size": 1320
+                },
+                "gap": "default"
+              },
+              "elements": [
+                {
+                  "id": "c0065",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "_inline_size": null,
+                    "content_position": "top",
+                    "align": "center"
+                  },
+                  "elements": [
+                    {
+                      "id": "w0064",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "VIEW BUSINESS PARTNERS \u203a",
+                        "link": {
+                          "url": "#partners",
+                          "is_external": "",
+                          "nofollow": ""
+                        },
+                        "align": "center",
+                        "background_color": "#f68b3c",
+                        "button_text_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "typography_font_weight": "400",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 1.5
+                        },
+                        "typography_text_transform": "uppercase",
+                        "border_radius": {
+                          "unit": "px",
+                          "isLinked": false,
+                          "top": "8",
+                          "right": "8",
+                          "bottom": "8",
+                          "left": "8"
+                        },
+                        "text_padding": {
+                          "unit": "px",
+                          "isLinked": false,
+                          "top": "14",
+                          "right": "28",
+                          "bottom": "14",
+                          "left": "28"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
       ]
     },
     {
-      "id": "pwu_contact",
+      "id": "s0073",
       "elType": "section",
+      "isInner": false,
       "settings": {
+        "structure": "10",
         "background_background": "classic",
         "background_color": "#ffffff",
-        "padding": {"unit":"px","top":"80","right":"32","bottom":"80","left":"32","isLinked":false},
-        "_id_attr": "partner-contact"
+        "padding": {
+          "unit": "px",
+          "isLinked": false,
+          "top": "80",
+          "right": "32",
+          "bottom": "80",
+          "left": "32"
+        },
+        "content_width": {
+          "unit": "px",
+          "size": 1320
+        },
+        "gap": "default",
+        "_element_id": "partner-contact"
       },
       "elements": [
         {
-          "id": "pwu_contact_col",
+          "id": "c0072",
           "elType": "column",
-          "settings": {"_column_size": 100},
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "content_position": "top"
+          },
           "elements": [
             {
-              "id": "pwu_contact_h",
+              "id": "w0069",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -276,28 +1898,64 @@
                 "title_color": "#6a1753",
                 "typography_typography": "custom",
                 "typography_font_family": "Cormorant Garamond",
-                "typography_font_size": {"unit":"px","size":48},
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48
+                },
                 "typography_font_weight": "400",
-                "typography_letter_spacing": {"unit":"px","size":-1},
-                "typography_text_transform": "uppercase"
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": -1
+                },
+                "typography_text_transform": "uppercase",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.1
+                },
+                "_margin": {
+                  "unit": "px",
+                  "isLinked": false,
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "12",
+                  "left": "0"
+                }
               }
             },
             {
-              "id": "pwu_contact_sub",
+              "id": "w0070",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p style='text-align:center;'>Explore partnership opportunities today!</p>",
+                "editor": "<p style='text-align:center;color:#4a4a4a;'>Explore partnership opportunities today!</p>",
                 "text_color": "#4a4a4a",
-                "_margin": {"unit":"px","top":"12","right":"0","bottom":"40","left":"0","isLinked":false}
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6
+                },
+                "align": "center",
+                "_margin": {
+                  "unit": "px",
+                  "isLinked": false,
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "40",
+                  "left": "0"
+                }
               }
             },
             {
-              "id": "pwu_contact_form",
+              "id": "w0071",
               "elType": "widget",
               "widgetType": "html",
               "settings": {
-                "html": "<style>.pwu-form{max-width:880px;margin:0 auto;display:flex;flex-direction:column;gap:22px;font-family:'Inter',sans-serif}.pwu-form-row{display:flex;flex-wrap:wrap;gap:22px}.pwu-field{flex:1 1 calc(50% - 11px);display:flex;flex-direction:column;gap:8px}.pwu-field.full{flex:1 1 100%}.pwu-field label{font-family:'Cormorant Garamond',serif;font-size:13px;letter-spacing:1px;text-transform:uppercase;color:#6a1753}.pwu-field input,.pwu-field select,.pwu-field textarea{background:#fff;border:1px solid #d6c8d4;border-radius:8px;padding:12px 14px;font-size:15px;color:#1a1a1a;font-family:inherit;width:100%;box-sizing:border-box}.pwu-field textarea{resize:vertical;min-height:140px}.pwu-form-actions{display:flex;justify-content:flex-end}.pwu-submit{background:#6a1753;color:#fff;border:0;padding:14px 32px;border-radius:8px;font-family:'Cormorant Garamond',serif;font-size:15px;text-transform:uppercase;letter-spacing:1.5px;cursor:pointer}.pwu-submit:hover{background:#4f0f3e}</style><form class='pwu-form' action='#' method='post'><div class='pwu-form-row'><div class='pwu-field'><label>First Name:</label><input type='text' name='first_name'></div><div class='pwu-field'><label>Email Address:</label><input type='email' name='email'></div></div><div class='pwu-form-row'><div class='pwu-field full'><label>Organization:</label><input type='text' name='organization'></div></div><div class='pwu-form-row'><div class='pwu-field full'><label>Partnership Type:</label><select name='partnership_type'><option value=''>Select…</option><option>Business</option><option>Community Partner</option><option>Sponsor</option></select></div></div><div class='pwu-form-row'><div class='pwu-field full'><label>Message:</label><textarea name='message' rows='6'></textarea></div></div><div class='pwu-form-actions'><button type='submit' class='pwu-submit'>Send Message ›</button></div></form>"
+                "html": "<style>.pwu-form{max-width:880px;margin:0 auto;display:flex;flex-direction:column;gap:22px;font-family:'Inter',sans-serif}.pwu-form-row{display:flex;flex-wrap:wrap;gap:22px}.pwu-field{flex:1 1 calc(50% - 11px);display:flex;flex-direction:column;gap:8px;min-width:220px}.pwu-field.full{flex:1 1 100%}.pwu-field label{font-family:'Cormorant Garamond',serif;font-size:13px;letter-spacing:1px;text-transform:uppercase;color:#6a1753}.pwu-field input,.pwu-field select,.pwu-field textarea{background:#fff;border:1px solid #d6c8d4;border-radius:8px;padding:12px 14px;font-size:15px;color:#1a1a1a;font-family:inherit;width:100%;box-sizing:border-box}.pwu-field textarea{resize:vertical;min-height:140px}.pwu-form-actions{display:flex;justify-content:flex-end}.pwu-submit{background:#6a1753;color:#fff;border:0;padding:14px 32px;border-radius:8px;font-family:'Cormorant Garamond',serif;font-size:15px;text-transform:uppercase;letter-spacing:1.5px;cursor:pointer}.pwu-submit:hover{background:#4f0f3e}</style><form class='pwu-form' action='#' method='post'><div class='pwu-form-row'><div class='pwu-field'><label>First Name:</label><input type='text' name='first_name'></div><div class='pwu-field'><label>Email Address:</label><input type='email' name='email'></div></div><div class='pwu-form-row'><div class='pwu-field full'><label>Organization:</label><input type='text' name='organization'></div></div><div class='pwu-form-row'><div class='pwu-field full'><label>Partnership Type:</label><select name='partnership_type'><option value=''>Select\u2026</option><option>Business</option><option>Community Partner</option><option>Sponsor</option></select></div></div><div class='pwu-form-row'><div class='pwu-field full'><label>Message:</label><textarea name='message' rows='6'></textarea></div></div><div class='pwu-form-actions'><button type='submit' class='pwu-submit'>Send Message \u203a</button></div></form>"
               }
             }
           ]
