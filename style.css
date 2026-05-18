@@ -1,0 +1,52 @@
+/*
+Theme Name: CIWA Elementor
+Theme URI:
+Author: Pitch Found
+Author URI:
+Description: Standalone Elementor-ready theme for Canadian Immigrant Women's Association. Designed to be edited entirely in Elementor — minimal theme scaffolding, Elementor Canvas takes over rendering for every page.
+Version: 0.1.0
+Requires at least: 6.4
+Tested up to: 6.7
+Requires PHP: 7.4
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ciwa-elementor
+*/
+
+/* --- Brand tokens (CSS custom properties) --- */
+/* All Elementor widgets pull from these via the Global Colors / Global Fonts
+   that get auto-registered on theme activation (see inc/elementor-presets.php). */
+:root {
+	--ciwa-primary:        #6a1753;
+	--ciwa-primary-deep:   #4f0f3e;
+	--ciwa-primary-fg:     #ffffff;
+	--ciwa-pink:           #e22371;
+	--ciwa-pink-soft:      #ff6e6e;
+	--ciwa-orange:         #f68b3c;
+	--ciwa-orange-deep:    #c66f2a;
+	--ciwa-coral:          #ff6e6e;
+	--ciwa-teal:           #5bbdad;
+	--ciwa-olive:          #aaa835;
+
+	--ciwa-text:           #1a1a1a;
+	--ciwa-text-muted:     #4a4a4a;
+	--ciwa-text-light:     #ffffff;
+	--ciwa-border:         #e6dce4;
+	--ciwa-background:     #ffffff;
+	--ciwa-surface-cream:  #fdf6ef;
+	--ciwa-surface-pink:   #fce7f0;
+
+	--ciwa-display:        'Cormorant Garamond', Georgia, serif;
+	--ciwa-sans:           'Inter', system-ui, sans-serif;
+}
+
+/* --- Minimal base styles (Elementor handles 99% of styling per widget) --- */
+html, body { margin: 0; padding: 0; font-family: var(--ciwa-sans); color: var(--ciwa-text); background: var(--ciwa-background); }
+* { box-sizing: border-box; }
+img { max-width: 100%; height: auto; display: block; }
+a { color: var(--ciwa-primary); text-decoration: none; }
+a:hover { text-decoration: underline; }
+h1, h2, h3, h4, h5, h6 { font-family: var(--ciwa-display); font-weight: 400; margin: 0; }
+
+/* Hide WP admin bar offset on canvas template (Elementor will handle layout fully) */
+.elementor-page #wpadminbar { position: fixed; top: 0; }
